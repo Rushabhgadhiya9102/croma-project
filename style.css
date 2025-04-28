@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.scrollbar-none{
+    scrollbar-width: none;
+}
+
+.bg-blackLight{
+    background-color: rgb(17, 17, 17);
+}
+
+.footer-item li:hover{
+    color: #12DAA8;
+    cursor: pointer;
+}
+
+#slider .slider-item img{
+    width: 100px;
+}
+
+.bank-content{
+     animation: scroll 30s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(calc(-250px * 7));
+  }
+}
+
+.bank-content .bank-item img{
+    width: 300px;
+}
