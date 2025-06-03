@@ -17,10 +17,6 @@
     cursor: pointer;
 }
 
-#slider .slider-item img{
-    width: 100px;
-}
-
 .bank-content{
      animation: scroll 30s linear infinite;
 }
